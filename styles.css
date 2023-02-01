@@ -1,0 +1,35 @@
+div{
+    background-color: #1f2937;
+}
+
+.container1{
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 10px;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    font-size: 18px;
+    color: #E5e7eb;
+    background-color: #1f2937;
+    display: flex;
+
+    
+}
+
+.subtext1{
+    color: #E5e7eb;
+}
+
+.container2{
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
