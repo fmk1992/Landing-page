@@ -19,7 +19,26 @@ div{
     background-color: #1f2937;
     display: flex;
 
-    
+}
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    font-size: 14px;
+  }
+
+ul{
+    list-style-type: none;
+  display: flex;
+  align-items: center;
+    padding: 1px;
+    margin: 2px;
+  gap: 8px;
+  
 }
 
 .subtext1{
