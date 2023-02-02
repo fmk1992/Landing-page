@@ -50,5 +50,17 @@ ul{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 80px;
+    
+}
+
+.image1{
+    display: block;
+    width: 150px;
+    height: auto;
 }
 
