@@ -3,18 +3,15 @@ body{
   flex-direction: column;
   padding: 0px;
   margin: 0;
-    background-color: #1f2937;
-
-  
+  flex-shrink: 1;
+  flex-basis: 50%;
 }
-
 
 .header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
-  padding: 20px;
 
 }
 .logo{
@@ -40,17 +37,17 @@ a{
   color: ;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 10px;
+  align-items: flex-start;
+  padding: 40px;
+
 }
 .title{
   display: flex;
-
   color: #f9faf8;
   font-weight: bolder;
   font-size: 48px;
 }
-.subtext1{
+.subtext{
   display: flex;
   flex-wrap: wrap;
 
@@ -60,4 +57,23 @@ a{
 .button{
  color: #3882f6;
 
+}
+
+.information{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding: 20px;
+
+}
+.container1{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
 }
