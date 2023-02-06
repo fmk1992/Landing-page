@@ -118,12 +118,10 @@ a{
 }
 .quote{
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   background-color: #e5e7eb;
-  padding: 40px;
-
+  padding: 80px;
 }
 
 .contentquote{
@@ -131,8 +129,19 @@ display: flex;
 color: #1f2937;
 font-size: 36px;
 font-style: italic;
-font-weight: lighter;}
+font-weight: lighter;
+width: 600px;
+}
 
+.signature-mover{
+  display: flex;
+}
+.signature{
+display: flex;
+}
+.quote-mover{
+  display: flex;
+}
 
 .signupbox{
   display: flex;
@@ -144,8 +153,7 @@ font-weight: lighter;}
   margin-left: 400px;
   margin-right: 400px;
   border-radius: 10px;
-  flex-shrink: 1;
-  gap: 200px;
+  flex: 1;
   padding: 30px;
 
   color: #e5e7eb;
