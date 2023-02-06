@@ -7,11 +7,11 @@ body{
 
 .header{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;  
   align-items: center;
   background-color: #1f2937;
-  flex-basis: 100px;
-  padding: 16px;
+  flex-basis: 50px;
+  padding: 10px;
 }
 .logo{
   font-size: 24px;
@@ -42,20 +42,24 @@ a{
 .heading2{
   background-color: #1f2937;
   display: flex;
-  justify-content: flex-start;  
-  padding: 40px;
+  justify-content: center;  
+  padding: 20px;
   color: #e5e7eb;
-;
-
-
 }
+
+
+
 .title{
   display: flex;
   color: #f9faf8;
   font-weight: bolder;
   font-size: 48px;
   flex: 1;
+  width: 300px;
+  flex-wrap: wrap;
+
 }
+
 .subtext{
   display: flex;
   flex-wrap: wrap;
@@ -64,6 +68,7 @@ a{
   font-size: 18px;
   flex: 1;
 }
+
 .button{
  display: flex;
  background-color: #3882f6;
@@ -78,7 +83,8 @@ a{
 }
 .titlesub1{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 100px;
 }
 
 .information{
@@ -89,13 +95,51 @@ a{
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
-  padding: 20px;
+  padding: 4px;
 
 }
 .container1{
   display: flex;
   background-color: white;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 10px;
+}
+
+.quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
   padding: 40px;
+
+}
+
+.contentquote{
+display: flex;
+color: #1f2937;
+font-size: 36px;
+font-style: italic;
+font-weight: lighter;}
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #3882f6;
+  margin: auto;
+  gap: 200px;
+  padding: 40px;
+  color: #e5e7eb;
+}
+.foot-title{
+  display: flex;
+}
+.foot-mover{
+  display: flex;
+  flex-direction: column;
+}
+.foot-subt{
+  display: flex;
 }
