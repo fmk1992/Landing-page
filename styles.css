@@ -32,6 +32,13 @@ img{
   
 }
 
+.image1{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+}
+
 a{
   text-decoration: none;
   color: #e5e7eb;
@@ -42,7 +49,7 @@ a{
 .heading2{
   background-color: #1f2937;
   display: flex;
-  justify-content: center;  
+  justify-content: space-evenly;  
   padding: 20px;
   color: #e5e7eb;
 }
@@ -68,6 +75,9 @@ a{
   font-size: 18px;
   flex: 1;
 }
+.soda1{
+  text-align: center;
+}
 
 .button{
  display: flex;
@@ -81,11 +91,7 @@ a{
  justify-content: center;
 
 }
-.titlesub1{
-  display: flex;
-  align-items: center;
-  gap: 100px;
-}
+
 
 .information{
   display: flex;
@@ -101,11 +107,15 @@ a{
 .container1{
   display: flex;
   background-color: white;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
   padding: 10px;
+  gap: 25px;
 }
-
+.subtext1{
+  width: 200px;
+}
 .quote{
   display: flex;
   flex-direction: column;
@@ -124,7 +134,7 @@ font-style: italic;
 font-weight: lighter;}
 
 
-.footer{
+.signupbox{
   display: flex;
   justify-content: space-around;
   background-color: #3882f6;
@@ -140,24 +150,38 @@ font-weight: lighter;}
 
   color: #e5e7eb;
 }
-.foot-title{
+.box-title{
   display: flex;
+  font-weight: bold;
+  font-size: 16px;
 }
-.foot-mover{
+.boxer-mover{
   display: flex;
   flex-direction: column;
 }
-.foot-subt{
+.box-subt{
   display: flex;
+  font-size: 13px;
 }
-.button1{display: flex;
+.button1{
+display: flex;
 background-color: #3882f6;
 color: #e5e7eb;
 text-align: center;
 border: 2px solid;
 border-color: #e5e7eb;
 border-radius: 8px;
-padding: 10px;
-min-height:25px;
-min-width: 110px; 
+padding: 8px;
+min-height:10px;
+min-width: 120px; 
 justify-content: center;}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #1f2937 ;
+  color: #e5e7eb;
+  font-size: 11px;
+}
