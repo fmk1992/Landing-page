@@ -1,10 +1,8 @@
+*{ border: solid 1px red }
+
 body{
   display: flex;
   flex-direction: column;
-  padding: 0px;
-  margin: 0;
-  flex-shrink: 1;
-  flex-basis: 50%;
 }
 
 .header{
@@ -12,7 +10,8 @@ body{
   justify-content: space-between;
   align-items: center;
   background-color: #1f2937;
-
+  flex-basis: 100px;
+  padding: 16px;
 }
 .logo{
   font-size: 24px;
@@ -24,6 +23,14 @@ ul{
   list-style: none;
   gap: 18px;
 }
+img{
+  display: flex;
+  justify-content: flex-end;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  
+}
 
 a{
   text-decoration: none;
@@ -34,11 +41,12 @@ a{
 
 .heading2{
   background-color: #1f2937;
-  color: ;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: flex-start;  
   padding: 40px;
+  color: #e5e7eb;
+;
+
 
 }
 .title{
@@ -46,17 +54,31 @@ a{
   color: #f9faf8;
   font-weight: bolder;
   font-size: 48px;
+  flex: 1;
 }
 .subtext{
   display: flex;
   flex-wrap: wrap;
-
-  color: #e5e7eb;
+  align-content: flex-start;
+  width: 500px;
   font-size: 18px;
+  flex: 1;
 }
 .button{
- color: #3882f6;
+ display: flex;
+ background-color: #3882f6;
+ color: #e5e7eb;
+ text-align: center;
+ border-radius: 8px;
+ padding:10px;
+ min-height:30px;
+ min-width: 120px; 
+ justify-content: center;
 
+}
+.titlesub1{
+  display: flex;
+  flex-direction: column;
 }
 
 .information{
